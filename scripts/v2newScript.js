@@ -1585,7 +1585,7 @@ let homosaurus = {
     "@id": "http://homosaurus.org/v2/transsexualism"
   },
   "skos:prefLabel": "Transgenderism",
-  "skos:exactMatch": "Gender noncomformity",
+  "skos:exactMatch": "Gender nonconformity",
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/gender"
