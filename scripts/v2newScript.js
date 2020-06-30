@@ -5,6 +5,356 @@
 //"skos:exactMatch" added manually from listings on homosaurus.org's v2 that haven't been updated into the JSON-LD format as of 1/8/20
 //Homosaurus v2, words chosen based on interconnectedness
 let homosaurus = {
+  "Adoptive parents" : {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/adoptiveParents",
+      "@type": "skos:Concept",
+      "dc:identifier": "adoptiveParents",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-11-10",
+        "@type": "xsd:date"
+      },
+      "skos:broader": {
+        "@id": "http://homosaurus.org/v2/parentsLGBTQ"
+      },
+      "skos:hasTopConcept": {
+        "@id": "http://homosaurus.org/v2/familyMembers"
+      },
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:prefLabel": "Adoptive parents",
+      "skos:exactMatch": {
+      	"@id": "http://id.loc.gov/authorities/subjects/sh92003241"
+      }, 
+      "skos:related": [
+        {
+          "@id": "http://homosaurus.org/v2/birthParents"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/LGBTQAdoption"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/socialParenthood"
+        }
+      ]
+    },
+    "Age of consent" : {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/ageOfConsent",
+      "@type": "skos:Concept",
+      "dc:identifier": "ageOfConsent",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-11-10",
+        "@type": "xsd:date"
+      },
+      "skos:hasTopConcept": {
+        "@id": "http://homosaurus.org/v2/ageOfConsent"
+      },
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:prefLabel": "Age of consent",
+      "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85002086"
+      },
+      "skos:related": [
+        {
+          "@id": "http://homosaurus.org/v2/intergenerationalRelationships"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/sexualOffencesLaws"
+        }
+      ]
+    },
+    "AIDS Activists" : {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/AIDSActivists",
+      "@type": "skos:Concept",
+      "dc:identifier": "AIDSActivists",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-10-25",
+        "@type": "xsd:date"
+      },
+      "skos:broader": {
+        "@id": "http://homosaurus.org/v2/activistsLGBTQ"
+      },
+      "skos:hasTopConcept": {
+        "@id": "http://homosaurus.org/v2/activistsLGBTQ"
+      },
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:prefLabel": "AIDS activists",
+      "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh93005197"
+      },
+      "skos:related": [
+        {
+          "@id": "http://homosaurus.org/v2/AIDSOrganisations"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/HIVAIDS"
+        }
+      ]
+    },
+    "AIDS phobia" : {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/AIDSPhobia",
+      "@type": "skos:Concept",
+      "dc:identifier": "AIDSPhobia",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-10-25",
+        "@type": "xsd:date"
+      },
+      "skos:altLabel": [
+        "AIDSphobia",
+        "Fear of AIDS"
+      ],
+      "skos:hasTopConcept": {
+        "@id": "http://homosaurus.org/v2/AIDSPhobia"
+      },
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:prefLabel": "AIDS phobia",
+      "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh88004490"
+      },
+      "skos:related": [
+        {
+          "@id": "http://homosaurus.org/v2/LGBTQPhobia"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/HIVAIDS"
+        }
+      ]
+    },
+    "Amazons" : {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/amazons",
+      "@type": "skos:Concept",
+      "dc:identifier": "amazons",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-09-17",
+        "@type": "xsd:date"
+      },
+      "rdfs:comment": "Nation of all-female warriors in Greek mythology and Classical antiquity; from the Early Modern period, their name has become a term for woman warriors in general",
+      "skos:broader": {
+        "@id": "http://homosaurus.org/v2/women"
+      },
+      "skos:hasTopConcept": {
+        "@id": "http://homosaurus.org/v2/gender"
+      },
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:prefLabel": "Amazons",
+      "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85004138"
+      }
+    },
+    "Anal sex": {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/analSex",
+      "@type": "skos:Concept",
+      "dc:identifier": "analSex",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-11-10",
+        "@type": "xsd:date"
+      },
+      "skos:altLabel": "Butt fucking",
+      "skos:broader": [
+        {
+          "@id": "http://homosaurus.org/v2/sexAct"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/sexualPractices"
+        }
+      ],
+      "skos:hasTopConcept": [
+        {
+          "@id": "http://homosaurus.org/v2/sexAct"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/sexualPractices"
+        }
+      ],
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:narrower": [
+        {
+          "@id": "http://homosaurus.org/v2/barebacking"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/fingering"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/fisting"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/fucking"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/rimming"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/scat"
+        }
+      ],
+      "skos:prefLabel": "Anal sex",
+      "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85004760"
+      },
+      "skos:related": [
+        {
+          "@id": "http://homosaurus.org/v2/analFisting"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/assFucking"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/enemas"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/assplay"
+        }
+      ]
+    },
+    "Anti-discrimination law" : {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/anti-discriminationLaw",
+      "@type": "skos:Concept",
+      "dc:identifier": "anti-discriminationLaw",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-11-10",
+        "@type": "xsd:date"
+      },
+      "skos:broader": {
+        "@id": "http://homosaurus.org/v2/law"
+      },
+      "skos:hasTopConcept": {
+        "@id": "http://homosaurus.org/v2/law"
+      },
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:prefLabel": "Anti-discrimination law",
+      "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh93005719",
+        "@note": "Discrimination--Law and legislation"
+      },
+      "skos:related": [
+        {
+          "@id": "http://homosaurus.org/v2/discriminationLGBTQ"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/publicFacilities"
+        }
+      ]
+    },
+    "Anti-feminism" : {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/anti-feminism",
+      "@type": "skos:Concept",
+      "dc:identifier": "anti-feminism",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-09-15",
+        "@type": "xsd:date"
+      },
+      "rdfs:comment": "Opposition to some or all forms of feminism",
+      "skos:hasTopConcept": {
+        "@id": "http://homosaurus.org/v2/anti-feminism"
+      },
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:prefLabel": "Anti-feminism",
+      "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh96004456"
+      },
+      "skos:related": [
+        {
+          "@id": "http://homosaurus.org/v2/privilege"
+        },
+        {
+          "@id": "http://homosaurus.org/v2/feminism"
+        }
+      ]
+    },
   "Asexual people" : {
     "@context": {
       "dc": "http://purl.org/dc/terms/",
@@ -33,7 +383,9 @@ let homosaurus = {
       "@id": "http://homosaurus.org/terms"
     },
     "skos:prefLabel": "Asexual people",
-    "skos:exactMatch": "Asexual people",
+    "skos:exactMatch": {
+      "@id": "http://id.loc.gov/authorities/subjects/sh2016000237"
+    },
     "skos:related": [
       {
         "@id": "http://homosaurus.org/v2/asexuality"
@@ -47,6 +399,75 @@ let homosaurus = {
       }
     ]
   },
+  "Autoeroticism" : {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/autoeroticism",
+      "@type": "skos:Concept",
+      "dc:identifier": "autoeroticism",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-11-07",
+        "@type": "xsd:date"
+      },
+      "skos:hasTopConcept": {
+        "@id": "http://homosaurus.org/v2/autoeroticism"
+      },
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:prefLabel": "Autoeroticism",
+      "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85082015",
+        "@note": "Masturbation"
+      },
+      "skos:related": {
+        "@id": "http://homosaurus.org/v2/masturbation"
+      }
+    },
+   "Aversion therapy" : {
+      "@context": {
+		"dc": "http://purl.org/dc/terms/",
+    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	    "skos": "http://www.w3.org/2004/02/skos/core#",
+    	"xsd": "http://www.w3.org/2001/XMLSchema#"
+	  },
+      "@id": "http://homosaurus.org/v2/aversionTherapy",
+      "@type": "skos:Concept",
+      "dc:identifier": "aversionTherapy",
+      "dc:issued": {
+        "@value": "2019-05-14",
+        "@type": "xsd:date"
+      },
+      "dc:modified": {
+        "@value": "2019-11-10",
+        "@type": "xsd:date"
+      },
+      "rdfs:comment": "Behavior modification therapy displacing pleasant associations evoked by homosexuality with unpleasant ones (in the form of electric shocks or a nausea-inducing drug) in order to shift the subject's homosexual orientation to a heterosexual one",
+      "skos:broader": {
+        "@id": "http://homosaurus.org/v2/behaviouralTherapy"
+      },
+      "skos:hasTopConcept": {
+        "@id": "http://homosaurus.org/v2/law"
+      },
+      "skos:inScheme": {
+        "@id": "http://homosaurus.org/terms"
+      },
+      "skos:prefLabel": "Aversion therapy",
+      "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85010520"
+      },
+      "skos:related": {
+        "@id": "http://homosaurus.org/v2/sexualReorientation"
+      }
+    },
   "Demisexual people" : {
     "@context": {
       "dc": "http://purl.org/dc/terms/",
@@ -158,7 +579,9 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Fetishism",
-  "skos:exactMatch": "Fetishism",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85047960"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/autoeroticAsphyxiation"
@@ -204,7 +627,9 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Gay community",
-  "skos:exactMatch": "Gay community",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh91003435"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/LGBTQ+"
@@ -307,7 +732,9 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Gay men",
-  "skos:exactMatch": "Gay men",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85061798"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/queerMen"
@@ -382,7 +809,10 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Heteronormativity",
-  "skos:exactMatch": "Heterosexism",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh93002513",
+    "@note": "Heterosexism"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/normalisation"
@@ -423,7 +853,9 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Heterosexuality",
-  "skos:exactMatch": "Heterosexuality",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh93008585"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/heterosexism"
@@ -465,7 +897,10 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Homosexuals",
-  "skos:exactMatch": "Gays",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85061795",
+  	"@note": "Gays"
+  },
   "skos:related": {
     "@id": "http://homosaurus.org/v2/sexualMinorities",
     "term": "Sexual minorities"
@@ -533,7 +968,9 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Gender identity",
-  "skos:exactMatch": "Gender identity",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh91003756"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/misgendering"
@@ -629,7 +1066,10 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Gender dysphoria",
-  "skos:exactMatch": "Gender identity disorders",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85053731",
+  	"@note": "Gender identity disorders"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/pubertyBlockers"
@@ -730,7 +1170,9 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Gender expression",
-  "skos:exactMatch": "Gender expression",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2011002609"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/bears"
@@ -817,7 +1259,10 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Gender roles",
-  "skos:exactMatch": "Sex role",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85120663",
+  	"@note": "Sex role"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/androgyny"
@@ -881,7 +1326,9 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Lesbianism",
-  "skos:exactMatch": "Lesbianism",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85076157"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/bisexuality"
@@ -956,7 +1403,9 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Lesbians",
-  "skos:exactMatch": "Lesbians",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85076160"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/queerWomen"
@@ -1062,7 +1511,13 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Masochism",
-  "skos:exactMatch": "Masochism",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85081828"
+  },
+  "skos:closeMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85120740",
+  	"@note": "Sadomasochism"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/sexualIdentity"
@@ -1110,7 +1565,14 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Non-binary people",
-  "skos:exactMatch": "Gender-noncomforming people",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2017004882",
+  	"@note": "Gender-noncomforming people"
+  },
+  "skos:closeMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2007003716",
+  	"@note": "Gender nonconformity"
+  }
 },
 "Sexual orientation" : {
   "@context": {
@@ -1164,7 +1626,9 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Sexual orientation",
-  "skos:exactMatch": "Sexual orientation",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh91005179"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/sexualIdentity"
@@ -1255,7 +1719,9 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Sexual minorities",
-  "skos:exactMatch": "Sexual minorities",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2004003385"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/LGBTI"
@@ -1362,7 +1828,10 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Sexual preference",
-  "skos:exactMatch": "Sexual orientation",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh91005179",
+  	"@note": "Sexual orientation"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/bondage"
@@ -1451,7 +1920,10 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Sexuality",
-  "skos:exactMatch": "Sex",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85120549",
+  	"@note": "Sex"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/sexAccessories"
@@ -1585,7 +2057,10 @@ let homosaurus = {
     "@id": "http://homosaurus.org/v2/transsexualism"
   },
   "skos:prefLabel": "Transgenderism",
-  "skos:exactMatch": "Gender nonconformity",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2007003716",
+  	"@note": "Gender nonconformity"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/gender"
@@ -1721,7 +2196,9 @@ let homosaurus = {
     }
   ],
   "skos:prefLabel": "Transgender people",
-  "skos:exactMatch": "Transgender people",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2007003708"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/genderConfirmingSurgery"
@@ -1873,7 +2350,9 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Two-spirit people",
-  "skos:exactMatch": "Two-spirit people",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh95004103"
+  },
   "skos:related": [
     {
       "@id": "http://homosaurus.org/v2/nadleehi"
@@ -1967,7 +2446,9 @@ let homosaurus = {
     "@id": "http://homosaurus.org/terms"
   },
   "skos:prefLabel": "Voyeurism",
-  "skos:exactMatch": "Voyeurism"
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85118773"
+  }
 }
 }
 
@@ -1980,9 +2461,16 @@ function collect(){
     //collect "skos:prefLabel" term and "skos:exactMatch" terms
     if (homosaurus[n]){
       if (homosaurus[n]["skos:exactMatch"]){
-        var newN = homosaurus[n]["skos:exactMatch"].replace(/ /g,'+')
+        	if (homosaurus[n]["skos:exactMatch"]["@note"]){
+        		var newN = homosaurus[n]["skos:exactMatch"]["@note"].replace(/ /g,'+')
+        		var searchTerm = homosaurus[n]["skos:exactMatch"]["@note"]
+        	}
+        	else{
+		        var newN = homosaurus[n]["skos:prefLabel"].replace(/ /g,'+')
+		        var searchTerm = homosaurus[n]["skos:prefLabel"]
+		    }
         document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?utf8=&#10004;&search_field=subject&q=" + newN + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>"
-        document.getElementById("lcsh").innerHTML = "<a href=\"https://iucat.iu.edu/?utf8=&#10004;&search_field=subject&q=" + newN + '\">' + homosaurus[n]["skos:exactMatch"] + "</a>"
+        document.getElementById("lcsh").innerHTML = "<a href=\"https://iucat.iu.edu/?utf8=&#10004;&search_field=subject&q=" + newN + '\">' + searchTerm + "</a>"
       }
       else{
         document.getElementById("preferred").innerHTML = homosaurus[n]["skos:prefLabel"]
