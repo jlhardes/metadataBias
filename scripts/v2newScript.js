@@ -5,13 +5,14 @@
 //"skos:exactMatch" added manually from listings on homosaurus.org's v2 that haven't been updated into the JSON-LD format as of 1/8/20
 //Homosaurus v2, words chosen based on interconnectedness
 let homosaurus = {
-  "Adoptive parents" : {
-      "@context": {
+  "@context": {
 		"dc": "http://purl.org/dc/terms/",
     	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 	    "skos": "http://www.w3.org/2004/02/skos/core#",
     	"xsd": "http://www.w3.org/2001/XMLSchema#"
 	  },
+  "Adoptive parents" : {
+
       "@id": "http://homosaurus.org/v2/adoptiveParents",
       "@type": "skos:Concept",
       "dc:identifier": "adoptiveParents",
@@ -49,12 +50,7 @@ let homosaurus = {
       ]
     },
     "Age of consent" : {
-      "@context": {
-		"dc": "http://purl.org/dc/terms/",
-    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-	    "skos": "http://www.w3.org/2004/02/skos/core#",
-    	"xsd": "http://www.w3.org/2001/XMLSchema#"
-	  },
+
       "@id": "http://homosaurus.org/v2/ageOfConsent",
       "@type": "skos:Concept",
       "dc:identifier": "ageOfConsent",
@@ -86,12 +82,7 @@ let homosaurus = {
       ]
     },
     "AIDS Activists" : {
-      "@context": {
-		"dc": "http://purl.org/dc/terms/",
-    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-	    "skos": "http://www.w3.org/2004/02/skos/core#",
-    	"xsd": "http://www.w3.org/2001/XMLSchema#"
-	  },
+
       "@id": "http://homosaurus.org/v2/AIDSActivists",
       "@type": "skos:Concept",
       "dc:identifier": "AIDSActivists",
@@ -126,12 +117,7 @@ let homosaurus = {
       ]
     },
     "AIDS phobia" : {
-      "@context": {
-		"dc": "http://purl.org/dc/terms/",
-    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-	    "skos": "http://www.w3.org/2004/02/skos/core#",
-    	"xsd": "http://www.w3.org/2001/XMLSchema#"
-	  },
+
       "@id": "http://homosaurus.org/v2/AIDSPhobia",
       "@type": "skos:Concept",
       "dc:identifier": "AIDSPhobia",
@@ -167,12 +153,7 @@ let homosaurus = {
       ]
     },
     "Amazons" : {
-      "@context": {
-		"dc": "http://purl.org/dc/terms/",
-    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-	    "skos": "http://www.w3.org/2004/02/skos/core#",
-    	"xsd": "http://www.w3.org/2001/XMLSchema#"
-	  },
+
       "@id": "http://homosaurus.org/v2/amazons",
       "@type": "skos:Concept",
       "dc:identifier": "amazons",
@@ -200,12 +181,7 @@ let homosaurus = {
       }
     },
     "Anal sex": {
-      "@context": {
-		"dc": "http://purl.org/dc/terms/",
-    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-	    "skos": "http://www.w3.org/2004/02/skos/core#",
-    	"xsd": "http://www.w3.org/2001/XMLSchema#"
-	  },
+
       "@id": "http://homosaurus.org/v2/analSex",
       "@type": "skos:Concept",
       "dc:identifier": "analSex",
@@ -277,12 +253,7 @@ let homosaurus = {
       ]
     },
     "Anti-discrimination law" : {
-      "@context": {
-		"dc": "http://purl.org/dc/terms/",
-    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-	    "skos": "http://www.w3.org/2004/02/skos/core#",
-    	"xsd": "http://www.w3.org/2001/XMLSchema#"
-	  },
+
       "@id": "http://homosaurus.org/v2/anti-discriminationLaw",
       "@type": "skos:Concept",
       "dc:identifier": "anti-discriminationLaw",
@@ -318,12 +289,7 @@ let homosaurus = {
       ]
     },
     "Anti-feminism" : {
-      "@context": {
-		"dc": "http://purl.org/dc/terms/",
-    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-	    "skos": "http://www.w3.org/2004/02/skos/core#",
-    	"xsd": "http://www.w3.org/2001/XMLSchema#"
-	  },
+
       "@id": "http://homosaurus.org/v2/anti-feminism",
       "@type": "skos:Concept",
       "dc:identifier": "anti-feminism",
@@ -400,12 +366,7 @@ let homosaurus = {
     ]
   },
   "Autoeroticism" : {
-      "@context": {
-		"dc": "http://purl.org/dc/terms/",
-    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-	    "skos": "http://www.w3.org/2004/02/skos/core#",
-    	"xsd": "http://www.w3.org/2001/XMLSchema#"
-	  },
+
       "@id": "http://homosaurus.org/v2/autoeroticism",
       "@type": "skos:Concept",
       "dc:identifier": "autoeroticism",
@@ -433,12 +394,7 @@ let homosaurus = {
       }
     },
    "Aversion therapy" : {
-      "@context": {
-		"dc": "http://purl.org/dc/terms/",
-    	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-	    "skos": "http://www.w3.org/2004/02/skos/core#",
-    	"xsd": "http://www.w3.org/2001/XMLSchema#"
-	  },
+
       "@id": "http://homosaurus.org/v2/aversionTherapy",
       "@type": "skos:Concept",
       "dc:identifier": "aversionTherapy",
