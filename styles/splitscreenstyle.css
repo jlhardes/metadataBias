@@ -57,8 +57,13 @@
   border: 0px;
 }
 
-ul:hover {
+ul {
+  list-style-type: none;
+}
+
+li:hover {
   color: darkred;
+  text-decoration: underline;
 }
 
 iframe {
