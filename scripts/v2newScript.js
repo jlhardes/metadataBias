@@ -322,11 +322,7 @@ let homosaurus = {
       ]
     },
   "Asexual people" : {
-    "@context": {
-      "dc": "http://purl.org/dc/terms/",
-      "skos": "http://www.w3.org/2004/02/skos/core#",
-      "xsd": "http://www.w3.org/2001/XMLSchema#"
-    },
+    
     "@id": "http://homosaurus.org/v2/asexualPeople",
     "@type": "skos:Concept",
     "dc:identifier": "asexualPeople",
@@ -424,13 +420,1738 @@ let homosaurus = {
         "@id": "http://homosaurus.org/v2/sexualReorientation"
       }
     },
-  "Demisexual people" : {
-    "@context": {
-      "dc": "http://purl.org/dc/terms/",
-      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-      "skos": "http://www.w3.org/2004/02/skos/core#",
-      "xsd": "http://www.w3.org/2001/XMLSchema#"
+  "Bears" : {
+  
+  "@id": "http://homosaurus.org/v2/bears",
+  "@type": "skos:Concept",
+  "dc:identifier": "bears",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Bear men",
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/gayCulture"
     },
+    {
+      "@id": "http://homosaurus.org/v2/gayMen"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/genderRoles"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualIdentity"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/subcultures"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gender"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualOrientation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/roleBehaviour"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualIdentity"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/cubs"
+  },
+  "skos:prefLabel": "Bears",
+  "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85012691"
+      },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/otters"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/wolves"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/genderExpression"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/goldilocks"
+    }
+  ]
+},
+  "Behavioural therapy" : {
+  
+  "@id": "http://homosaurus.org/v2/behaviouralTherapy",
+  "@type": "skos:Concept",
+  "dc:identifier": "behaviouralTherapy",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/therapies"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/law"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/aversionTherapy"
+  },
+  "skos:prefLabel": "Behavioural therapy",
+  "skos:exactMatch": {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85012900",
+        "@note": "Behavior therapy"
+      }
+},
+  "Biphobia" : {
+  
+  "@id": "http://homosaurus.org/v2/biphobia",
+  "@type": "skos:Concept",
+  "dc:identifier": "biphobia",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/LGBTQPhobia"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/LGBTQPhobia"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Biphobia",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2012001037"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/bisexuality"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/heterosexism"
+    }
+  ]
+},
+  "Birth certificates" : {
+  
+  "@id": "http://homosaurus.org/v2/birthCertificates",
+  "@type": "skos:Concept",
+  "dc:identifier": "birthCertificates",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/officialDocumentation"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/legalStatus"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/birthCertificateAmendments"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/genderMarkers"
+    }
+  ],
+  "skos:prefLabel": "Birth certificates",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85014366"
+  },	
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/medicalPractitionersStatements"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/socialSecurityCards"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/courtOrders"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/legalName"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/legalNameChange"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/transgenderPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/transitioningTransgender"
+    }
+  ]
+},
+  "Birth parents" : {
+  
+  "@id": "http://homosaurus.org/v2/birthParents",
+  "@type": "skos:Concept",
+  "dc:identifier": "birthParents",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/gestationalParenthood"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/parentsLGBTQ"
+    }
+  ],
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/familyMembers"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/LGBTQBirthParents"
+  },
+  "skos:prefLabel": "Birth parents",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85014394",
+  	"@term": "Birthparents"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/adoptiveParents"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/biologicalParenthood"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gestationalParenthood"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQAdoption"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQAdoptiveParents"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQBiologicalParents"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQConception"
+    }
+  ]
+},
+  "Bisexual Jews" : {
+  
+  "@id": "http://homosaurus.org/v2/bisexualJews",
+  "@type": "skos:Concept",
+  "dc:identifier": "bisexualJews",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/jewsLGBTQ"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/LGBTQEthnicGroups"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Bisexual Jews",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2019000135",
+  	"@note": "Jewish bisexuals"
+  }
+},
+  "Bisexual men" : {
+  
+  "@id": "http://homosaurus.org/v2/bisexualMen",
+  "@type": "skos:Concept",
+  "dc:identifier": "bisexualMen",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Male bisexuals",
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/men"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/bisexualPeople"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/gender"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualOrientation"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Bisexual men",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh93002510"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/queerMen"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/menWhoHaveSexWithMen"
+    }
+  ]
+},
+  "Bisexual parents" : {
+  
+  "@id": "http://homosaurus.org/v2/bisexualParents",
+  "@type": "skos:Concept",
+  "dc:identifier": "bisexualParents",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/bisexualPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/parentsLGBTQ"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualOrientation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/familyMembers"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Bisexual parents",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh98004191"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/childrenOfBisexualPeople"
+  }
+},
+  "Bisexual women" : {
+  
+  "@id": "http://homosaurus.org/v2/bisexualWomen",
+  "@type": "skos:Concept",
+  "dc:identifier": "bisexualWomen",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/bisexualPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/women"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualOrientation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gender"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/mati"
+  },
+  "skos:prefLabel": "Bisexual women",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh93002512"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/womenWhoHaveSexWithWomen"
+  }
+},
+  "Bisexual youth" : {
+  
+  "@id": "http://homosaurus.org/v2/bisexualYouth",
+  "@type": "skos:Concept",
+  "dc:identifier": "bisexualYouth",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Bisexual teenagers",
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/bisexualPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/youthLGBTQ"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualOrientation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/youth"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/bisexualBoys"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/bisexualGirls"
+    }
+  ],
+  "skos:prefLabel": "Bisexual youth",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh97003789"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/bisexualYouthLiterature"
+  }
+},
+  "Blindfolds" : {
+  "@context": {
+    "dc": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "http://homosaurus.org/v2/blindfolds",
+  "@type": "skos:Concept",
+  "dc:identifier": "blindfolds",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Blindfolds",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2003009027"
+  }
+},
+  "Blogs" : {
+  "@context": {
+    "dc": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "http://homosaurus.org/v2/blogs",
+  "@type": "skos:Concept",
+  "dc:identifier": "blogs",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "A website or webpage, typically run by an individual or small group, that iswritten in an informal or conversational style.",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/socialMedia"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/socialMedia"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/LGBTQBlogs"
+  },
+  "skos:prefLabel": "Blogs",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2003004628"
+  }
+},
+  "Boys" : {
+  
+  "@id": "http://homosaurus.org/v2/boys",
+  "@type": "skos:Concept",
+  "dc:identifier": "boys",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/boys"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/bisexualBoys"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayBoys"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/heterosexualBoys"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sissies"
+    }
+  ],
+  "skos:prefLabel": "Boys",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85016211"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/boysFriendships"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/genderBinary"
+    }
+  ]
+},
+  "Breasts" : {
+  
+  "@id": "http://homosaurus.org/v2/breasts",
+  "@type": "skos:Concept",
+  "dc:identifier": "breasts",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/secondarySexCharacteristics"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/erogenousBodyParts"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/sexBody"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/erogenousBodyParts"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Breasts",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85016677",
+  	"@note": "Breast"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/binding"
+  }
+},
+  "Brothels" : {
+  
+  "@id": "http://homosaurus.org/v2/brothels",
+  "@type": "skos:Concept",
+  "dc:identifier": "brothels",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexIndustry"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexIndustry"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Brothels",
+  "skos:exactMatch": {
+  	"@id:": "http://id.loc.gov/authorities/subjects/sh2005004145"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/prostitution"
+  }
+},
+  "Bullying" : {
+  
+  "@id": "http://homosaurus.org/v2/bullying",
+  "@type": "skos:Concept",
+  "dc:identifier": "bullying",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "Form of aggressive behaviour, which can include verbal harassment, physicalassault or coercion and maybe directed repeatedly towards particular victims, perhaps ongrounds of race, gender, sexuality, or ability",
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/bullying"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/cyberbullying"
+  },
+  "skos:prefLabel": "Bullying",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh89006054"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQPhobia"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/harassment"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/lesbophobia"
+    }
+  ]
+},
+  "Buttocks" : {
+  
+  "@id": "http://homosaurus.org/v2/buttocks",
+  "@type": "skos:Concept",
+  "dc:identifier": "buttocks",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/erogenousBodyParts"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/erogenousBodyParts"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Buttocks",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85018392"
+  }
+},
+  "Castration" : {
+  
+  "@id": "http://homosaurus.org/v2/castration",
+  "@type": "skos:Concept",
+  "dc:identifier": "castration",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/castration"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/orchiectomy"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/penectomy"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/forcedCastration"
+    }
+  ],
+  "skos:prefLabel": "Castration",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85020752"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/eunuchs"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/consent"
+    }
+  ]
+},
+  "Celibacy" : {
+  
+  "@id": "http://homosaurus.org/v2/celibacy",
+  "@type": "skos:Concept",
+  "dc:identifier": "celibacy",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/celibacy"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Celibacy",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85021634"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/queerClergy"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/bisexualClergy"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayClergy"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/transgenderClergy"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/lesbianClergy"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualAbstinence"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/asexualPeople"
+    }
+  ]
+},
+  "Censorship" : {
+  
+  "@id": "http://homosaurus.org/v2/censorship",
+  "@type": "skos:Concept",
+  "dc:identifier": "censorship",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/censorship"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/LGBTQCensorship"
+  },
+  "skos:prefLabel": "Censorship",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85021828"
+  }
+},
+  "Child custody" : {
+  
+  "@id": "http://homosaurus.org/v2/childCustody",
+  "@type": "skos:Concept",
+  "dc:identifier": "childCustody",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": [
+    "Guardianship",
+    "Parental custody",
+    "Tutelage"
+  ],
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/childCustody"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Child custody",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85034952",
+  	"@note": "Custody of children"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/children"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQAdoption"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQDivorce"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQFosterFamilies"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQPersonalAndFamilyLaw"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQSeparation"
+    }
+  ]
+},
+  "Children" : {
+  
+  "@id": "http://homosaurus.org/v2/children",
+  "@type": "skos:Concept",
+  "dc:identifier": "children",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "Persons between birth and puberty",
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/children"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/childrenLGBTQ"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/intersexChildren"
+    }
+  ],
+  "skos:prefLabel": "Children",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85023418"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/childCustody"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/childrensSexuality"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/desireToHaveChildren"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/familyMembers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/youth"
+    }
+  ]
+},
+  "Children of lesbians" : {
+  
+  "@id": "http://homosaurus.org/v2/childrenOfLesbians",
+  "@type": "skos:Concept",
+  "dc:identifier": "childrenOfLesbians",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/childrenOfLGBTQPeople"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/familyMembers"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/daughtersOfLesbians"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sonsOfLesbians"
+    }
+  ],
+  "skos:prefLabel": "Children of lesbians",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85023551",
+  	"@note": "Children of gay parents"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/lesbianParents"
+  }
+},
+  "Chromosomes" : {
+  
+  "@id": "http://homosaurus.org/v2/chromosomes",
+  "@type": "skos:Concept",
+  "dc:identifier": "chromosomes",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexBody"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexBody"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Chromosomes",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85025391"
+  }
+},
+  "Circumcision" : {
+  
+  "@id": "http://homosaurus.org/v2/circumcision",
+  "@type": "skos:Concept",
+  "dc:identifier": "circumcision",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "Surgical removal of the foreskin of the penis",
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/circumcision"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Circumcision",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85026074"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/clitoridectomy"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/cutMen"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/foreskinRestoration"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/uncutMen"
+    }
+  ]
+},
+  "Cisgender people" : {
+  
+  "@id": "http://homosaurus.org/v2/cisgenderPeople",
+  "@type": "skos:Concept",
+  "dc:identifier": "cisgenderPeople",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/culturallySpecificGenderIdentities"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/gender"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/cisgenderMen"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/cisgenderWomen"
+    }
+  ],
+  "skos:prefLabel": "Cisgender people",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2016000684"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/men"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/culturallySpecificGenderIdentities"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/women"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/genderIdentity"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/transgenderPeople"
+    }
+  ]
+},
+  "Civil unions" : {
+  
+  "@id": "http://homosaurus.org/v2/civilUnions",
+  "@type": "skos:Concept",
+  "dc:identifier": "civilUnions",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": [
+    "Civil partnership",
+    "Registered partnership"
+  ],
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/livingArrangements"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/livingArrangements"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/civilPartnershipDocuments"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/civilUnionCertificates"
+    }
+  ],
+  "skos:prefLabel": "Civil unions",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2003003097"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/domesticPartnerships"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/marriage"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/marriageLaw"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/legalStatus"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQPersonalAndFamilyLaw"
+    }
+  ]
+},
+  "Clitoridectomy" : {
+  
+  "@id": "http://homosaurus.org/v2/clitoridectomy",
+  "@type": "skos:Concept",
+  "dc:identifier": "clitoridectomy",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": [
+    "Clitorectomy",
+    "Female circumcision"
+  ],
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/genderConfirmingSurgery"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/law"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Clitoridectomy",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85027085"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/circumcision"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/femaleGenitalMutilation"
+    }
+  ]
+},
+  "Clitoris" : {
+  
+  "@id": "http://homosaurus.org/v2/clitoris",
+  "@type": "skos:Concept",
+  "dc:identifier": "clitoris",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/erogenousBodyParts"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/genitals"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/erogenousBodyParts"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexBody"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/g-spot"
+  },
+  "skos:prefLabel": "Clitoris",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85027086"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/clitoralSex"
+  }
+},
+  "Clones" : {
+  
+  "@id": "http://homosaurus.org/v2/clones",
+  "@type": "skos:Concept",
+  "dc:identifier": "clones",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "Historical term for gay men who tended to dress in a common and masculine fashion, often used in the Castro District of San Francisco",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/LGBTQHistoricalTerms"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/LGBTQHistoricalTerms"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Clones",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh00007750"
+  }
+},
+  "Clothing" : {
+  
+  "@id": "http://homosaurus.org/v2/clothing",
+  "@type": "skos:Concept",
+  "dc:identifier": "clothing",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/clothing"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/lingerie"
+  },
+  "skos:prefLabel": "Clothing",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh99005081"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/drag"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/crossdressers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/crossdressing"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/drab"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/genderExpression"
+    }
+  ]
+},
+  "Cocaine" : {
+  
+  "@id": "http://homosaurus.org/v2/cocaine",
+  "@type": "skos:Concept",
+  "dc:identifier": "cocaine",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/partyDrugs"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/drugs"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Cocaine",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85027558"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/cocaineAddiction"
+  }
+},
+  "Collars" : {
+  
+  "@id": "http://homosaurus.org/v2/collars",
+  "@type": "skos:Concept",
+  "dc:identifier": "collars",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Collars",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85027979"
+  }
+},
+  "Common law marriage" : {
+  
+  "@id": "http://homosaurus.org/v2/commonLawMarriage",
+  "@type": "skos:Concept",
+  "dc:identifier": "commonLawMarriage",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/marriageLaw"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/law"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Common law marriage",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85028995"
+  }
+},
+  "Condoms" : {
+  
+  "@id": "http://homosaurus.org/v2/condoms",
+  "@type": "skos:Concept",
+  "dc:identifier": "condoms",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": [
+    "Prophylactics",
+    "Rubbers"
+  ],
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Condoms",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85030795"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/saferSex"
+  }
+},
+  "Congenital Adrenal Hyperplasia" : {
+ 
+  "@id": "http://homosaurus.org/v2/congenitalAdrenalHyperplasia",
+  "@type": "skos:Concept",
+  "dc:identifier": "congenitalAdrenalHyperplasia",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/intersexConditions"
+  },
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/law"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexBody"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Congenital Adrenal Hyperplasia",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85001014",
+  	"@note": "Adrenogenital syndrome"
+  }
+},
+  "Corsets" : {
+  
+  "@id": "http://homosaurus.org/v2/corsets",
+  "@type": "skos:Concept",
+  "dc:identifier": "corsets",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Corsets",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85033068"
+  }
+},
+  "Cottages" : {
+  
+  "@id": "http://homosaurus.org/v2/cottages",
+  "@type": "skos:Concept",
+  "dc:identifier": "cottages",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "UK slang term for public bathrooms used as sex locations",
+  "skos:altLabel": "Public urinals",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexLocations"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexLocations"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/gloryHoles"
+  },
+  "skos:prefLabel": "Cottages",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85033295"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/cottaging"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/tearooms"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/publicBathrooms"
+    }
+  ]
+},
+  "Criminal law" : {
+ 
+  "@id": "http://homosaurus.org/v2/criminalLaw",
+  "@type": "skos:Concept",
+  "dc:identifier": "criminalLaw",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/law"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/law"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/criminalisation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/decriminalisation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualOffencesLaws"
+    }
+  ],
+  "skos:prefLabel": "Criminal law",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85034058"
+  }
+},
+  "Crossdressing" : {
+  
+  "@id": "http://homosaurus.org/v2/crossdressing",
+  "@type": "skos:Concept",
+  "dc:identifier": "crossdressing",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/genderExpression"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/gender"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Crossdressing",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85137104",
+  	"@note": "Cross-dressing"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/clothing"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/readingTransgender"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/crossdressers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/eonism"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/kabuki"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/transvestism"
+    }
+  ]
+},
+  "Cunnilingus" : {
+  
+  "@id": "http://homosaurus.org/v2/cunnilingus",
+  "@type": "skos:Concept",
+  "dc:identifier": "cunnilingus",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": [
+    "Carpet munching",
+    "Cunt licking",
+    "Eating pussy",
+    "Muff diving"
+  ],
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/clitoralSex"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/vaginalSex"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/oralSex"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/licking"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexAct"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualPractices"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/sexAct"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualPractices"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Cunnilingus",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85095239",
+  	"@note": "Oral sex"
+  }
+},
+  "Cyberbullying" : {
+  
+  "@id": "http://homosaurus.org/v2/cyberbullying",
+  "@type": "skos:Concept",
+  "dc:identifier": "cyberbullying",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/bullying"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/bullying"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Cyberbullying",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh2006004667"
+  }
+},
+  "Cybersex" : {
+  
+  "@id": "http://homosaurus.org/v2/cybersex",
+  "@type": "skos:Concept",
+  "dc:identifier": "cybersex",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": [
+    "Internet sex",
+    "Online sex"
+  ],
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/cybersex"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Cybersex",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh96001657",
+  	"@note": "Computer sex"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/sexuality"
+  }
+},
+  "Demisexual people" : {
+    
     "@id": "http://homosaurus.org/v2/demisexualPeople",
     "@type": "skos:Concept",
     "dc:identifier": "demisexualPeople",
@@ -463,7 +2184,7 @@ let homosaurus = {
     "skos:inScheme": {
       "@id": "http://homosaurus.org/terms"
     },
-    "skos:prefLabel": "Demisexual people",
+    "skos  :prefLabel": "Demisexual people",
     "skos:related": [
       {
         "@id": "http://homosaurus.org/v2/sexualRelationships"
@@ -481,11 +2202,7 @@ let homosaurus = {
     ]
   },
 "Fetishism" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/fetishism",
   "@type": "skos:Concept",
   "dc:identifier": "fetishism",
@@ -557,11 +2274,7 @@ let homosaurus = {
   ]
 },
 "Gay community": {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/gayCommunity",
   "@type": "skos:Concept",
   "dc:identifier": "gayCommunity",
@@ -615,11 +2328,7 @@ let homosaurus = {
   ]
 },
 "Gay men" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/gayMen",
   "@type": "skos:Concept",
   "dc:identifier": "gayMen",
@@ -738,11 +2447,7 @@ let homosaurus = {
   ]
 },
 "Heteronormativity" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/heteronormativity",
   "@type": "skos:Concept",
   "dc:identifier": "heteronormativity",
@@ -782,11 +2487,7 @@ let homosaurus = {
   ]
 },
 "Heterosexuality" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/heterosexuality",
   "@type": "skos:Concept",
   "dc:identifier": "heterosexuality",
@@ -825,12 +2526,7 @@ let homosaurus = {
   ]
 },
 "Homosexuals" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/homosexuals",
   "@type": "skos:Concept",
   "dc:identifier": "homosexuals",
@@ -863,12 +2559,7 @@ let homosaurus = {
   }
 },
 "Gender identity" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/genderIdentity",
   "@type": "skos:Concept",
   "dc:identifier": "genderIdentity",
@@ -993,12 +2684,7 @@ let homosaurus = {
   ]
 },
 "Gender dysphoria" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/genderDysphoria",
   "@type": "skos:Concept",
   "dc:identifier": "genderDysphoria",
@@ -1047,12 +2733,7 @@ let homosaurus = {
   ]
 },
 "Gender expression": {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/genderExpression",
   "@type": "skos:Concept",
   "dc:identifier": "genderExpression",
@@ -1163,11 +2844,7 @@ let homosaurus = {
   ]
 },
 "Gender roles": {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/genderRoles",
   "@type": "skos:Concept",
   "dc:identifier": "genderRoles",
@@ -1255,11 +2932,7 @@ let homosaurus = {
   ]
 },
 "Lesbianism" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/lesbianism",
   "@type": "skos:Concept",
   "dc:identifier": "lesbianism",
@@ -1295,11 +2968,7 @@ let homosaurus = {
   ]
 },
 "Lesbians" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/lesbians",
   "@type": "skos:Concept",
   "dc:identifier": "lesbians",
@@ -1420,11 +3089,7 @@ let homosaurus = {
   ]
 },
 "Masochism": {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/masochism",
   "@type": "skos:Concept",
   "dc:identifier": "masochism",
@@ -1493,11 +3158,7 @@ let homosaurus = {
   ]
 },
 "Non-binary people": {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/nonBinaryPeople",
   "@type": "skos:Concept",
   "dc:identifier": "nonBinaryPeople",
@@ -1531,12 +3192,7 @@ let homosaurus = {
   }
 },
 "Sexual orientation" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/sexualOrientation",
   "@type": "skos:Concept",
   "dc:identifier": "sexualOrientation",
@@ -1612,12 +3268,7 @@ let homosaurus = {
   ]
 },
 "Sexual minorities" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/sexualMinorities",
   "@type": "skos:Concept",
   "dc:identifier": "sexualMinorities",
@@ -1722,12 +3373,7 @@ let homosaurus = {
   ]
 },
 "Sexual preference" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/sexualPreference",
   "@type": "skos:Concept",
   "dc:identifier": "sexualPreference",
@@ -1845,11 +3491,7 @@ let homosaurus = {
   ]
 },
 "Sexuality" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/sexuality",
   "@type": "skos:Concept",
   "dc:identifier": "sexuality",
@@ -1982,12 +3624,7 @@ let homosaurus = {
   ]
 },
 "Transgenderism" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/transgenderism",
   "@type": "skos:Concept",
   "dc:identifier": "transgenderism",
@@ -2051,11 +3688,7 @@ let homosaurus = {
   ]
 },
 "Transgender people" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/transgenderPeople",
   "@type": "skos:Concept",
   "dc:identifier": "transgenderPeople",
@@ -2267,12 +3900,7 @@ let homosaurus = {
   ]
 },
 "Two-spirit people" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/two-spiritPeople",
   "@type": "skos:Concept",
   "dc:identifier": "two-spiritPeople",
@@ -2352,11 +3980,7 @@ let homosaurus = {
   ]
 },
 "Voyeurism" : {
-  "@context": {
-    "dc": "http://purl.org/dc/terms/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
+  
   "@id": "http://homosaurus.org/v2/voyeurism",
   "@type": "skos:Concept",
   "dc:identifier": "voyeurism",
