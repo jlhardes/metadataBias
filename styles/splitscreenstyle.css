@@ -73,4 +73,8 @@ iframe {
 
 .hidden {
   display: none;
-};
+}
+
+#introduction {
+	margin-left: 20px;
+}

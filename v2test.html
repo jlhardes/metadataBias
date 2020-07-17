@@ -6,34 +6,36 @@
     <link rel="stylesheet" type="text/css" href="styles/splitscreenstyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-            $(document).ready(function(){
+           /* $(document).ready(function(){
             $("#hide").click(function toggler(divId) {
                 $("#lcsh").toggle();
                 })})
             $(document).ready(function(){
             $("#hide").click(function toggler(divId) {
                 $("#alt").toggle();
-                })})
+                })})*/
     </script>
 </head>
 
 <body>
 
 <div class="split right">
+	<div id="introduction">
+    	<p>
+            Text explaining community controlled vocabularies.
+        </p> 
         <button onclick="collect()">
-                Click here to reset.</button>
+                Click here to reset.
+        </button>
+    </div>
     <div class="centered">
             <div class="grid-container">
                     <div class="grid-empty"></div>
                     <div class="grid-item" id="hide">
                             <h2>Exact Match (LCSH):</h2>
                             <div>
-                                <p id="lcsh" class="hidden"></p> 
+                                <p id="lcsh"></p> 
                             </div> 
-                            <h2>Use For:</h2>
-                            <div>
-                                    <p id="alt" class="hidden"></p>
-                            </div>
                     </div>
                     <div class="grid-empty"></div>  
                     <div class="grid-item">
@@ -51,6 +53,10 @@
                     </div>  
                     <div class="grid-empty"></div>
                     <div class="grid-item">
+                            <h2>Use For:</h2>
+                            <div>
+                                    <p id="alt"></p>
+                            </div>
                             <h2>Related:</h2>
                             <p id="related" onclick="collect()"></p>
                     </div>
