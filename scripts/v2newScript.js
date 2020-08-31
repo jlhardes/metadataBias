@@ -1879,7 +1879,7 @@ let homosaurus = {
   	"@note": "Adrenogenital syndrome"
   }
 },
-  "Corsets" : {
+"Corsets" : {
   
   "@id": "http://homosaurus.org/v2/corsets",
   "@type": "skos:Concept",
@@ -1906,7 +1906,7 @@ let homosaurus = {
   	"@id": "http://id.loc.gov/authorities/subjects/sh85033068"
   }
 },
-  "Cottages" : {
+"Cottages" : {
   
   "@id": "http://homosaurus.org/v2/cottages",
   "@type": "skos:Concept",
@@ -1949,7 +1949,7 @@ let homosaurus = {
     }
   ]
 },
-  "Criminal law" : {
+"Criminal law" : {
  
   "@id": "http://homosaurus.org/v2/criminalLaw",
   "@type": "skos:Concept",
@@ -1987,7 +1987,7 @@ let homosaurus = {
   	"@id": "http://id.loc.gov/authorities/subjects/sh85034058"
   }
 },
-  "Crossdressing" : {
+"Crossdressing" : {
   
   "@id": "http://homosaurus.org/v2/crossdressing",
   "@type": "skos:Concept",
@@ -2035,7 +2035,7 @@ let homosaurus = {
     }
   ]
 },
-  "Cunnilingus" : {
+"Cunnilingus" : {
   
   "@id": "http://homosaurus.org/v2/cunnilingus",
   "@type": "skos:Concept",
@@ -2091,7 +2091,7 @@ let homosaurus = {
   	"@note": "Oral sex"
   }
 },
-  "Cyberbullying" : {
+"Cyberbullying" : {
   
   "@id": "http://homosaurus.org/v2/cyberbullying",
   "@type": "skos:Concept",
@@ -2118,7 +2118,7 @@ let homosaurus = {
   	"@id": "http://id.loc.gov/authorities/subjects/sh2006004667"
   }
 },
-  "Cybersex" : {
+"Cybersex" : {
   
   "@id": "http://homosaurus.org/v2/cybersex",
   "@type": "skos:Concept",
@@ -2150,7 +2150,7 @@ let homosaurus = {
     "@id": "http://homosaurus.org/v2/sexuality"
   }
 },
-  "Demisexual people" : {
+"Demisexual people" : {
     
     "@id": "http://homosaurus.org/v2/demisexualPeople",
     "@type": "skos:Concept",
@@ -2201,6 +2201,7 @@ let homosaurus = {
       }
     ]
   },
+//[STOPPED AT DENTAL DAMS]
 "Fetishism" : {
   
   "@id": "http://homosaurus.org/v2/fetishism",
@@ -2446,11 +2447,11 @@ let homosaurus = {
     }
   ]
 },
-"Heteronormativity" : {
+"Gay movement" : {
   
-  "@id": "http://homosaurus.org/v2/heteronormativity",
+  "@id": "http://homosaurus.org/v2/gayMovement",
   "@type": "skos:Concept",
-  "dc:identifier": "heteronormativity",
+  "dc:identifier": "gayMovement",
   "dc:issued": {
     "@value": "2019-05-14",
     "@type": "xsd:date"
@@ -2459,38 +2460,61 @@ let homosaurus = {
     "@value": "2019-05-14",
     "@type": "xsd:date"
   },
-  "skos:altLabel": ["Heterosexual norms"],
+  "skos:altLabel": [
+    "Gay organisations",
+    "Gay organizations"
+  ],
   "skos:broader": {
-    "@id": "http://homosaurus.org/v2/socialNorms"
+    "@id": "http://homosaurus.org/v2/movementLGBTQ"
   },
   "skos:hasTopConcept": {
-    "@id": "http://homosaurus.org/v2/socialNorms"
+    "@id": "http://homosaurus.org/v2/socialMovements"
   },
   "skos:inScheme": {
     "@id": "http://homosaurus.org/terms"
   },
-  "skos:prefLabel": "Heteronormativity",
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/gayPoliticalGroups"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayReligiousGroups"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayTradeUnionGroups"
+    }
+  ],
+  "skos:prefLabel": "Gay movement",
   "skos:exactMatch": {
-    "@id": "http://id.loc.gov/authorities/subjects/sh93002513",
-    "@note": "Heterosexism"
+    "@id": "http://id.loc.gov/authorities/subjects/sh85053580",
+    "@note": "Gay liberation movement"
   },
   "skos:related": [
     {
-      "@id": "http://homosaurus.org/v2/normalisation"
+      "@id": "http://homosaurus.org/v2/gayCommunityCentres"
     },
     {
-      "@id": "http://homosaurus.org/v2/heterosexism"
+      "@id": "http://homosaurus.org/v2/gayInformationCentres"
     },
     {
-      "@id": "http://homosaurus.org/v2/homonormativity"
+      "@id": "http://homosaurus.org/v2/gayLiberation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayPress"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayRadio"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayTelevision"
     }
   ]
 },
-"Heterosexuality" : {
-  
-  "@id": "http://homosaurus.org/v2/heterosexuality",
+"Gay Muslims" : {
+    
+  "@id": "http://homosaurus.org/v2/gayMuslims",
   "@type": "skos:Concept",
-  "dc:identifier": "heterosexuality",
+  "dc:identifier": "gayMuslims",
   "dc:issued": {
     "@value": "2019-05-14",
     "@type": "xsd:date"
@@ -2499,65 +2523,325 @@ let homosaurus = {
     "@value": "2019-05-14",
     "@type": "xsd:date"
   },
-  "skos:broader": {
-    "@id": "http://homosaurus.org/v2/sexualOrientation",
-    "term": "Sexual orientation"
-  },
-  "skos:hasTopConcept": {
-    "@id": "http://homosaurus.org/v2/sexualOrientation"
-  },
-  "skos:inScheme": {
-    "@id": "http://homosaurus.org/terms"
-  },
-  "skos:prefLabel": "Heterosexuality",
-  "skos:exactMatch": {
-    "@id": "http://id.loc.gov/authorities/subjects/sh93008585"
-  },
-  "skos:related": [
+  "skos:broader": [
     {
-      "@id": "http://homosaurus.org/v2/heterosexism"
+      "@id": "http://homosaurus.org/v2/muslimsLGBTQ"
     },
     {
-      "@id": "http://homosaurus.org/v2/heterosexuals"
-    },
-    {
-      "@id": "http://homosaurus.org/v2/homosexuality"
+      "@id": "http://homosaurus.org/v2/LGBTQAsianReligions"
     }
-  ]
-},
-"Homosexuals" : {
-  
-  "@id": "http://homosaurus.org/v2/homosexuals",
-  "@type": "skos:Concept",
-  "dc:identifier": "homosexuals",
-  "dc:issued": {
-    "@value": "2019-05-14",
-    "@type": "xsd:date"
-  },
-  "dc:modified": {
-    "@value": "2019-05-14",
-    "@type": "xsd:date"
-  },
-  "rdfs:comment": "Outdated term for lesbians and gay men.",
-  "skos:broader": {
-    "@id": "http://homosaurus.org/v2/LGBTQHistoricalTerms"
-  },
+  ],
   "skos:hasTopConcept": {
-    "@id": "http://homosaurus.org/v2/LGBTQHistoricalTerms"
+    "@id": "http://homosaurus.org/v2/LGBTQReligions"
   },
   "skos:inScheme": {
     "@id": "http://homosaurus.org/terms"
   },
-  "skos:prefLabel": "Homosexuals",
+  "skos:prefLabel": "Gay Muslims",
   "skos:exactMatch": {
-  	"@id": "http://id.loc.gov/authorities/subjects/sh85061795",
-  	"@note": "Gays"
-  },
-  "skos:related": {
-    "@id": "http://homosaurus.org/v2/sexualMinorities",
-    "term": "Sexual minorities"
+    "@id": "http://id.loc.gov/authorities/subjects/sh2009010809",
+    "@note": "Muslim gays"
   }
 },
+"Gay newspapers" : {
+    
+  "@id": "http://homosaurus.org/v2/gayNewspapers",
+  "@type": "skos:Concept",
+  "dc:identifier": "gayNewspapers",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/newspapersLGBTQ"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayPress"
+    }
+  ],
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/pressLGBTQ"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Gay newspapers",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh94008545"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/gayNewsletters"
+  }
+},
+"Gay parents" : {
+    
+  "@id": "http://homosaurus.org/v2/gayParents",
+  "@type": "skos:Concept",
+  "dc:identifier": "gayParents",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Gay fathers",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/parentsLGBTQ"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/familyMembers"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Gay parents",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85061779"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/childrenOfGayMen"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/fathers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayFamilies"
+    }
+  ]
+},
+"Gay porn films" : {
+    
+  "@id": "http://homosaurus.org/v2/gayPornFilms",
+  "@type": "skos:Concept",
+  "dc:identifier": "gayPornFilms",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/pornFilmsLGBTQ"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/pornFilmsLGBTQ"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Gay porn films",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh2011001047",
+    "@note": "Gay pornographic films"
+  }
+},
+"Gay press" : {
+    
+  "@id": "http://homosaurus.org/v2/gayPress",
+  "@type": "skos:Concept",
+  "dc:identifier": "gayPress",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/pressLGBTQ"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/pressLGBTQ"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/gayNewsletters"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayNewspapers"
+    }
+  ],
+  "skos:prefLabel": "Gay press",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh94008923"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/gayMovement"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQMagazines"
+    }
+  ]
+},
+"Gay Protestants" : {
+    
+  "@id": "http://homosaurus.org/v2/gayProtestants",
+  "@type": "skos:Concept",
+  "dc:identifier": "gayProtestants",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/protestantsLGBTQ"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/LGBTQReligions"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Gay Protestants",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh2007008279",
+    "@note": "Protestant gays"
+  }
+},
+"Gay rights" : {
+    
+  "@id": "http://homosaurus.org/v2/gayRights",
+  "@type": "skos:Concept",
+  "dc:identifier": "gayRights",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/civilRightsLGBTQ"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/humanRights"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Gay rights",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh94009215"
+  }
+},
+"Gay saunas" : {
+    
+  "@id": "http://homosaurus.org/v2/gaySaunas",
+  "@type": "skos:Concept",
+  "dc:identifier": "gaySaunas",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": [
+    "Gay bathhouses",
+    "Gay baths"
+  ],
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQNightLife"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexLocations"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQNightLife"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexLocations"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/gloryHoles"
+  },
+  "skos:prefLabel": "Gay saunas",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh2005020503",
+    "@note": "Gay bathhouses"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/publicSex"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexIndustry"
+    }
+  ]
+},
+"Gay youth" : {
+    
+  "@id": "http://homosaurus.org/v2/gayYouth",
+  "@type": "skos:Concept",
+  "dc:identifier": "gayYouth",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Gay teenagers",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/youthLGBTQ"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/youth"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/gayBoys"
+  },
+  "skos:prefLabel": "Gay youth",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh88007920"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/gayCharacters"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayIdentity"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayMen"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gayYouthLiterature"
+    }
+  ]
+},
+//[STOPPED AT GENDER]
 "Gender identity" : {
   
   "@id": "http://homosaurus.org/v2/genderIdentity",
@@ -2930,6 +3214,118 @@ let homosaurus = {
       "@id": "http://homosaurus.org/v2/sexuality"
     }
   ]
+},
+"Heteronormativity" : {
+  
+  "@id": "http://homosaurus.org/v2/heteronormativity",
+  "@type": "skos:Concept",
+  "dc:identifier": "heteronormativity",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": ["Heterosexual norms"],
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/socialNorms"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/socialNorms"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Heteronormativity",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh93002513",
+    "@note": "Heterosexism"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/normalisation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/heterosexism"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/homonormativity"
+    }
+  ]
+},
+"Heterosexuality" : {
+  
+  "@id": "http://homosaurus.org/v2/heterosexuality",
+  "@type": "skos:Concept",
+  "dc:identifier": "heterosexuality",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexualOrientation",
+    "term": "Sexual orientation"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexualOrientation"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Heterosexuality",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh93008585"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/heterosexism"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/heterosexuals"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/homosexuality"
+    }
+  ]
+},
+"Homosexuals" : {
+  
+  "@id": "http://homosaurus.org/v2/homosexuals",
+  "@type": "skos:Concept",
+  "dc:identifier": "homosexuals",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "Outdated term for lesbians and gay men.",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/LGBTQHistoricalTerms"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/LGBTQHistoricalTerms"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Homosexuals",
+  "skos:exactMatch": {
+  	"@id": "http://id.loc.gov/authorities/subjects/sh85061795",
+  	"@note": "Gays"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/sexualMinorities",
+    "term": "Sexual minorities"
+  }
 },
 "Lesbianism" : {
   
