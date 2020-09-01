@@ -2201,7 +2201,373 @@ let homosaurus = {
       }
     ]
   },
-//[STOPPED AT DENTAL DAMS]
+"Dental dams" : {
+    
+  "@id": "http://homosaurus.org/v2/dentalDams",
+  "@type": "skos:Concept",
+  "dc:identifier": "dentalDams",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Latex barriers",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Dental dams",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85035617",
+    "@note": "Dams (Dentistry)"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/saferSex"
+  }
+},
+"Dildos" : {
+    
+  "@id": "http://homosaurus.org/v2/dildos",
+  "@type": "skos:Concept",
+  "dc:identifier": "dildos",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Strap-ons",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexAccessories"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Dildos",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh2007007162"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/vibrators"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/penises"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/strapOnSex"
+    }
+  ]
+},
+"Divorced people" : {
+    
+  "@id": "http://homosaurus.org/v2/divorcedPeople",
+  "@type": "skos:Concept",
+  "dc:identifier": "divorcedPeople",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/maritalStatus"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/livingArrangements"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Divorced people",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85038648"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQDivorce"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/singlePeople"
+    }
+  ]
+},
+"Drag balls" : {
+    
+  "@id": "http://homosaurus.org/v2/dragBalls",
+  "@type": "skos:Concept",
+  "dc:identifier": "dragBalls",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/LGBTQEvents"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/LGBTQEvents"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Drag balls",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh94008099"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/drag"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/ballCulture"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/voguing"
+    }
+  ]
+},
+"Drag kings" : {
+    
+  "@id": "http://homosaurus.org/v2/dragKings",
+  "@type": "skos:Concept",
+  "dc:identifier": "dragKings",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/dragKings"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/dragFathers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragMothers"
+    }
+  ],
+  "skos:prefLabel": "Drag kings",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85064636",
+    "@note": "Male impersonators"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/drag"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/crossdressers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragCommunity"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragFamilies"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragFathers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragMothers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragQueens"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/maleImpersonators"
+    }
+  ]
+},
+"Drag queens" : {
+    
+  "@id": "http://homosaurus.org/v2/dragQueens",
+  "@type": "skos:Concept",
+  "dc:identifier": "dragQueens",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/queens"
+  },
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/gender"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualOrientation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQPeople"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/dragFathers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragMothers"
+    }
+  ],
+  "skos:prefLabel": "Drag queens",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85064634",
+    "@note": "Female impersonators"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/drag"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/crossdressers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragCommunity"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragFamilies"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragFathers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragKings"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/dragMothers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/femaleImpersonators"
+    }
+  ]
+},
+"Drug abuse" : {
+    
+  "@id": "http://homosaurus.org/v2/drugAbuse",
+  "@type": "skos:Concept",
+  "dc:identifier": "drugAbuse",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": [
+    "Drug addiction",
+    "Drug dependence"
+  ],
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/substanceAbuse"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/substanceAbuse"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": [
+    {
+      "@id": "http://homosaurus.org/v2/cocaineAddiction"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/crystalMethAddiction"
+    }
+  ],
+  "skos:prefLabel": "Drug abuse",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85039675"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/drugUsers"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/drugs"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/recreationalDrugUse"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/narcoticsAnonymous"
+    }
+  ]
+},
+"Drugs" : {
+    
+  "@id": "http://homosaurus.org/v2/drugs",
+  "@type": "skos:Concept",
+  "dc:identifier": "drugs",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "For recreational party drugs commonly found in LGBTQculture",
+  "skos:altLabel": "Street drugs",
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/drugs"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/partyDrugs"
+  },
+  "skos:prefLabel": "Drugs",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85039719"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/drugAbuse"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/medication"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/recreationalDrugUse"
+    }
+  ]
+},
+//[STOPPED AT E's]
 "Fetishism" : {
   
   "@id": "http://homosaurus.org/v2/fetishism",
