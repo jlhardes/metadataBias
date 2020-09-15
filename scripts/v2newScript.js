@@ -4806,13 +4806,15 @@ function collect(){
         	if (homosaurus[n]["skos:exactMatch"]["@note"]){
         		var newN = homosaurus[n]["skos:exactMatch"]["@note"].replace(/ /g,'+')
         		var searchTerm = homosaurus[n]["skos:exactMatch"]["@note"]
+        		document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=all_field&q=" + homosaurus[n]["skos:prefLabel"].replace(/ /g,'+') + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>"
         	}
         	else{
 		        var newN = homosaurus[n]["skos:prefLabel"].replace(/ /g,'+')
 		        var searchTerm = homosaurus[n]["skos:prefLabel"]
+		        document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=subject&q=" + newN + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>"
 		    }
-        document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?utf8=&#10004;&search_field=subject&q=" + newN + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>"
-        document.getElementById("lcsh").innerHTML = "<a href=\"https://iucat.iu.edu/?utf8=&#10004;&search_field=subject&q=" + newN + '\">' + searchTerm + "</a>"
+        //document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?utf8=&#10004;&search_field=subject&q=" + newN + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>"
+        document.getElementById("lcsh").innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=subject&q=" + newN + '\">' + searchTerm + "</a>"
       }
       else{
         document.getElementById("preferred").innerHTML = homosaurus[n]["skos:prefLabel"]
@@ -4981,7 +4983,7 @@ function collect(){
       if(homosaurus[n]["skos:altLabel"]){
         homosaurus[n]["skos:altLabel"].forEach((x)=>{
           var p = document.createElement('P')
-          p.innerHTML = "<a href=\"https://iucat.iu.edu/?utf8=✓&search_field=all_field&q=" + x + '\">' + x + "</a>"
+          p.innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=all_field&q=" + x + '\">' + x + "</a>"
           itemListAlt.push(p)
         })
         itemListAlt.forEach((x)=>{
