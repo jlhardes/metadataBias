@@ -4,7 +4,7 @@
     <title>Inclusivity in Metadata</title>
     <script src="scripts/v2newScript.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/splitscreenstyle.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script>
            /* $(document).ready(function(){
             $("#hide").click(function toggler(divId) {
@@ -17,7 +17,7 @@
     </script>
 </head>
 
-<body>
+<body onload="makeList()">
 
 <div class="split right">
 	<div id="introduction">
@@ -71,9 +71,9 @@
     <h3>Homosaurus v2 terms</h3>
 
     <div>
-    <ul>
+    <ul id="termList">
 
-<li onclick="collect()">Asexual people</li>
+<!-- <li onclick="collect()">Asexual people</li>
 <li onclick="collect()">Demisexual people</li>
 <li onclick="collect()">Fetishism</li>
 <li onclick="collect()">Gay community</li>
@@ -96,7 +96,7 @@
 <li onclick="collect()">Transgender people</li>
 <li onclick="collect()">Transgenderism</li>
 <li onclick="collect()">Two-spirit people</li>
-<li onclick="collect()">Voyeurism</li>
+<li onclick="collect()">Voyeurism</li> -->
     </ul>
     </div>
 </div>

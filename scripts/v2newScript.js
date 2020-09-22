@@ -4794,6 +4794,28 @@ let homosaurus = {
 }
 }
 
+function makeList() {
+	for (x in homosaurus) {
+		if (x != "@context") {
+			document.getElementById("termList").innerHTML += "<li onclick='collect()'>" + x + "</li>"
+		}
+	}
+
+	/* var m = event.target.innerText
+
+	if (homosaurus[i]["skos:prefLabel"].length > 1){
+		for (i = 0; i < homosaurus[i]["skos:prefLabel"].length; i ++){
+			var li = document.createElement('LI')
+			li.innerHTML = homosaurus[i]["skos:prefLabel"][i]
+            li.addEventListener("onclick", collect)
+            document.getElementById("termList").append(li)
+            
+			document.getElementById("termList").innerHTML = "<li onclick='collect()'>" + homosaurus[m]["skos:prefLabel"] + "</li>" 
+		}
+	} */
+
+}
+
 function collect(){
     var itemListRelated = [];
     var itemListBroader = [];
@@ -4801,6 +4823,7 @@ function collect(){
     var itemListAlt = [];
     var n = event.target.innerText
     //collect "skos:prefLabel" term and "skos:exactMatch" terms
+    
     if (homosaurus[n]){
       if (homosaurus[n]["skos:exactMatch"]){
         	if (homosaurus[n]["skos:exactMatch"]["@note"]){
