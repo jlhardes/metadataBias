@@ -2184,7 +2184,7 @@ let homosaurus = {
     "skos:inScheme": {
       "@id": "http://homosaurus.org/terms"
     },
-    "skos  :prefLabel": "Demisexual people",
+    "skos:prefLabel": "Demisexual people",
     "skos:related": [
       {
         "@id": "http://homosaurus.org/v2/sexualRelationships"
@@ -2567,7 +2567,478 @@ let homosaurus = {
     }
   ]
 },
-//[STOPPED AT E's]
+"Ecofeminism" : {
+  
+  "@id": "http://homosaurus.org/v2/ecofeminism",
+  "@type": "skos:Concept",
+  "dc:identifier": "ecofeminism",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "Links feminism with ecology",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/feminism"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/feminism"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Ecofeminism",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh91001601"
+  }
+},
+"Electroshock therapy" : {
+  
+  "@id": "http://homosaurus.org/v2/electroshockTherapy",
+  "@type": "skos:Concept",
+  "dc:identifier": "electroshockTherapy",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": [
+    "Electric shock therapy",
+    "Electroconvulsive therapy"
+  ],
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/therapies"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/law"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Electroshock therapy",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85041999",
+    "@note" : "Electroconvulsive therapy"
+  }
+},
+"Enemas" : {
+  
+  "@id": "http://homosaurus.org/v2/enemas",
+  "@type": "skos:Concept",
+  "dc:identifier": "enemas",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Colonic irrigation",
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/enemas"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Enemas",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85043118",
+    "@note" : "Enema"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/analSex"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualPractices"
+    }
+  ]
+},
+"Eonism" : {
+  
+  "@id": "http://homosaurus.org/v2/eonism",
+  "@type": "skos:Concept",
+  "dc:identifier": "eonism",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "Historical terms for the adoption of feminine behaviors in a person assigned male at birth.",
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/medicalisation"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/genderExpression"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/law"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/gender"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Eonism",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85137104",
+    "@note" : "Cross-dressing"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/crossdressing"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/eonistPeople"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/transvestism"
+    }
+  ]
+},
+"Erectile dysfunction" : {
+  
+  "@id": "http://homosaurus.org/v2/erectileDysfunction",
+  "@type": "skos:Concept",
+  "dc:identifier": "erectileDysfunction",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Impotence",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexualDysfunction"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexualDysfunction"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Erectile dysfunction",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85064658",
+    "@note" : "Impotence"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/erectionPills"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/erections"
+    }
+  ]
+},
+"Erotica" : {
+  
+  "@id": "http://homosaurus.org/v2/erotica",
+  "@type": "skos:Concept",
+  "dc:identifier": "erotica",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "The portrayal of sexuality with high-art aspirations, focusing also on feelings and emotions",
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/erotica"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:narrower": {
+    "@id": "http://homosaurus.org/v2/eroticLiteratureLGBTQ"
+  },
+  "skos:prefLabel": "Erotica",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85044718"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/pornography"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/LGBTQArts"
+    }
+  ]
+},
+"Eroticism" : {
+ 
+  "@id": "http://homosaurus.org/v2/eroticism",
+  "@type": "skos:Concept",
+  "dc:identifier": "eroticism",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/eroticism"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Eroticism",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85120733",
+    "@note": "Sexual excitement"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/physicalAffection"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualExcitement"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexuality"
+    }
+  ]
+},
+"Escort services" : {
+  
+  "@id": "http://homosaurus.org/v2/escortServices",
+  "@type": "skos:Concept",
+  "dc:identifier": "escortServices",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/sexWork"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/sexWork"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Escort services",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85044807"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/escorts"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/prostitution"
+    }
+  ]
+},
+"Estrogen" : {
+  
+  "@id": "http://homosaurus.org/v2/estrogen",
+  "@type": "skos:Concept",
+  "dc:identifier": "estrogen",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/hormoneTherapyGender"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/hormones"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/law"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexBody"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Estrogen",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85045012"
+  }
+},
+"Etiology" : {
+  
+  "@id": "http://homosaurus.org/v2/etiology",
+  "@type": "skos:Concept",
+  "dc:identifier": "etiology",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "Inquiries and speculations regarding the causes of sexual behaviour or diseases",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/theories"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/theories"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Etiology",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh00005666"
+  }
+},
+"Eunuchs" : {
+  
+  "@id": "http://homosaurus.org/v2/eunuchs",
+  "@type": "skos:Concept",
+  "dc:identifier": "eunuchs",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:altLabel": "Castrati",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/culturallySpecificGenderIdentities"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/gender"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Eunuchs",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85045580"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/castration"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/hijra"
+    }
+  ]
+},
+"Ex-gay movement" : {
+  
+  "@id": "http://homosaurus.org/v2/ex-gayMovement",
+  "@type": "skos:Concept",
+  "dc:identifier": "ex-gayMovement",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "rdfs:comment": "People and organisations that seek to get people to refrain from entering or pursuing same-sex relationships, to eliminate homosexual desires, to develop heterosexual desires, or to enter into a heterosexual relationship",
+  "skos:broader": {
+    "@id": "http://homosaurus.org/v2/socialMovements"
+  },
+  "skos:hasTopConcept": {
+    "@id": "http://homosaurus.org/v2/socialMovements"
+  },
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Ex-gay movement",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh2005005425"
+  },
+  "skos:related": {
+    "@id": "http://homosaurus.org/v2/sexualReorientation"
+  }
+},
+"Exhibitionism" : {
+  
+  "@id": "http://homosaurus.org/v2/exhibitionism",
+  "@type": "skos:Concept",
+  "dc:identifier": "exhibitionism",
+  "dc:issued": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "dc:modified": {
+    "@value": "2019-05-14",
+    "@type": "xsd:date"
+  },
+  "skos:broader": [
+    {
+      "@id": "http://homosaurus.org/v2/fetishism"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexAct"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualPractices"
+    }
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "http://homosaurus.org/v2/sexualPreference"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexAct"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualPractices"
+    }
+  ],
+  "skos:inScheme": {
+    "@id": "http://homosaurus.org/terms"
+  },
+  "skos:prefLabel": "Exhibitionism",
+  "skos:exactMatch": {
+    "@id": "http://id.loc.gov/authorities/subjects/sh85046353"
+  },
+  "skos:related": [
+    {
+      "@id": "http://homosaurus.org/v2/publicSex"
+    },
+    {
+      "@id": "http://homosaurus.org/v2/sexualAddiction"
+    }
+  ]
+},
+//[STOPPED AT LETTER F]
 "Fetishism" : {
   
   "@id": "http://homosaurus.org/v2/fetishism",
@@ -4800,19 +5271,6 @@ function makeList() {
 			document.getElementById("termList").innerHTML += "<li onclick='collect()'>" + x + "</li>"
 		}
 	}
-
-	/* var m = event.target.innerText
-
-	if (homosaurus[i]["skos:prefLabel"].length > 1){
-		for (i = 0; i < homosaurus[i]["skos:prefLabel"].length; i ++){
-			var li = document.createElement('LI')
-			li.innerHTML = homosaurus[i]["skos:prefLabel"][i]
-            li.addEventListener("onclick", collect)
-            document.getElementById("termList").append(li)
-            
-			document.getElementById("termList").innerHTML = "<li onclick='collect()'>" + homosaurus[m]["skos:prefLabel"] + "</li>" 
-		}
-	} */
 
 }
 
