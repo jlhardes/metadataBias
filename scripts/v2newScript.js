@@ -5356,7 +5356,7 @@ function collect(){
         while(itemListRelated.length){
           itemListRelated.pop();
         }
-        itemListRelated.getElementById("related").innerHTML = "";
+        document.getElementById("related").innerHTML = "";
       }
 
     
@@ -5461,7 +5461,9 @@ function collect(){
     //  document.getElementById("alt").append(x)
     //})
     if(homosaurus[n]){
-      if(homosaurus[n]["skos:altLabel"]){
+      document.getElementById("alt").innerHTML = ''
+      if(homosaurus[n]["skos:altLabel"])
+      {
         homosaurus[n]["skos:altLabel"].forEach((x)=>{
           var p = document.createElement('P')
           p.innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=all_field&q=" + x + '\">' + x + "</a>"
@@ -5476,13 +5478,16 @@ function collect(){
         p.innerHTML = ""
         itemListAlt.length = 0
         itemListAlt.push(p)
-        }
-        document.getElementById("alt").innerHTML = ''
-        itemListAlt.forEach((x)=>{
-          document.getElementById("alt").append(x)})
       }
-      else{
+    document.getElementById("alt").innerHTML = ''
+    itemListAlt.forEach((x)=>{
+        document.getElementById("alt").append(x)})
+    }
+    else{ var p = document.createElement('P')
+    	p.innerHTML = ""
+    	while(itemListAlt.length) {
+    		itemListAlt.pop()
+    	}
         document.getElementById("alt").innerHTML = ""
-      }
-    
+    }
 }
