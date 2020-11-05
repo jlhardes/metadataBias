@@ -1,5 +1,5 @@
-# Mitigating Metadata Bias: Information Retrieval Aid Proof-of-concept
-> A Linked Data initiative connecting a library catalog (Indiana University's IUCAT) with a Linked Data controlled vocabulary (Homosaurus) to aid researchers in discovering relevant resources using terminology representing a community, from that community.
+# Information Retrieval Aid Proof-of-concept
+> A Linked Data initiative connecting a library catalog (Indiana University's [IUCAT](https://iucat.iu.edu)) with a Linked Data controlled vocabulary ([Homosaurus](http://homosaurus.org)) to aid researchers in discovering relevant resources using terminology representing a community, from that community.
 
 ## General Info
 Motivated by a concern that Library of Congress Subjects Headings (LCSH) are often slow to change and do not represent systemically marginalized communities well. If those communities are supplying terminology and it is available as Linked Data, why not use that vocabulary as a search and discovery aid? Terminology from the community not included in LCSH can expand the range of search terms useful to researchers for finding relevant resources, especially if relationships between the community's vocabulary and LCSH are defined.
@@ -11,7 +11,7 @@ Homosaurus, an international linked data vocabulary of LGBTQ terms, provides the
 * Javascript
 * CSS
 
-This is simple and runs as a standalone HTML page.
+This runs as a standalone HTML page.
 
 ## Setup
 Clone or download the code and open concept.html in preferred browser.
@@ -35,7 +35,7 @@ To-do List:
 Project is: _in progress_
 
 ## Inspiration
-Interface design is based on the design of the search aid provided at IHLIA LGBTI Heritage. Thanks to Brian M. Watson, Editorial Board member of Homosaurus.org, for their help with using Homosaurus version 2 terms. Also thanks to the work of Justina Kaiser who created the initial code behind the information retrieval aid. This project is forked from her project!
+Interface design is based on the design of the search aid provided at [IHLIA LGBTI Heritage](http://www.ihlia.nl/search/?lang=en). Thanks to Brian M. Watson, Editorial Board member of Homosaurus.org, for their help with using Homosaurus version 2 terms. Also thanks to the work of Justina Kaiser who created the initial code behind the information retrieval aid. This project is forked from her project!
 
 ## License
 [![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png) Licensed under CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
