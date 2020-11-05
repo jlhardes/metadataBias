@@ -35,7 +35,9 @@ To-do List:
 Project is: _in progress_
 
 ## Inspiration
-Interface design is based on the design of the search aid provided at [IHLIA LGBTI Heritage](http://www.ihlia.nl/search/?lang=en). Thanks to Brian M. Watson, Editorial Board member of Homosaurus.org, for their help with using Homosaurus version 2 terms. Also thanks to the work of Justina Kaiser who created the initial code behind the information retrieval aid. This project is forked from her project!
+Interface design is based on the design of the search aid provided at [IHLIA LGBTI Heritage](http://www.ihlia.nl/search/?lang=en). 
+
+Thanks to Brian M. Watson, Editorial Board member of Homosaurus.org, for their help with using Homosaurus version 2 terms. Also thanks to the work of Justina Kaiser who created the initial code behind the information retrieval aid. This project is forked from her project!
 
 ## License
 [![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png) Licensed under CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
