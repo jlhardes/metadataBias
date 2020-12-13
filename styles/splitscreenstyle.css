@@ -78,3 +78,7 @@ iframe {
 #introduction {
 	margin-left: 20px;
 }
+
+#preferred p {
+	padding: 5px;
+}

@@ -5283,22 +5283,27 @@ function collect(){
     //collect "skos:prefLabel" term and "skos:exactMatch" terms
     
     if (homosaurus[n]){
+      if (homosaurus[n]["rdfs:comment"]){
+      	var description = "<p>" + homosaurus[n]["rdfs:comment"] + "</p>"
+      } else {
+      	var description = ""
+      }
       if (homosaurus[n]["skos:exactMatch"]){
         	if (homosaurus[n]["skos:exactMatch"]["@note"]){
         		var newN = homosaurus[n]["skos:exactMatch"]["@note"].replace(/ /g,'+')
         		var searchTerm = homosaurus[n]["skos:exactMatch"]["@note"]
-        		document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=all_field&q=" + homosaurus[n]["skos:prefLabel"].replace(/ /g,'+') + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>"
+        		document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=all_field&q=" + homosaurus[n]["skos:prefLabel"].replace(/ /g,'+') + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>" + description
         	}
         	else{
 		        var newN = homosaurus[n]["skos:prefLabel"].replace(/ /g,'+')
 		        var searchTerm = homosaurus[n]["skos:prefLabel"]
-		        document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=subject&q=" + newN + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>"
+		        document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=subject&q=" + newN + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>" + description
 		    }
         //document.getElementById("preferred").innerHTML = "<a href=\"https://iucat.iu.edu/?utf8=&#10004;&search_field=subject&q=" + newN + '\">' + homosaurus[n]["skos:prefLabel"] + "</a>"
         document.getElementById("lcsh").innerHTML = "<a href=\"https://iucat.iu.edu/?search_field=subject&q=" + newN + '\">' + searchTerm + "</a>"
       }
       else{
-        document.getElementById("preferred").innerHTML = homosaurus[n]["skos:prefLabel"]
+        document.getElementById("preferred").innerHTML = homosaurus[n]["skos:prefLabel"] + description
         document.getElementById("lcsh").innerHTML = ""
       }
     }
